@@ -1,2 +1,8 @@
+
+vosk-model-*/
+models/
+
+
 __pycache__/
 *.pyc
+.env
