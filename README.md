@@ -80,6 +80,8 @@ The project follows the Model-View-Controller (MVC) pattern:
 - **View:** CustomTkinter GUI components.
 
 - **Controller:** Main logic handling the interface-engine bridge and AI threading.
+  
+![licensed-image](https://github.com/user-attachments/assets/b095145f-32cf-4c39-a0d9-4b3e7030f6b4)
 
 ---
 
