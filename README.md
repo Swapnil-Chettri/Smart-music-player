@@ -32,3 +32,78 @@ A modern, AI-powered desktop music player built with Python. Featuring an offlin
 git clone [https://github.com/YOUR_USERNAME/Smart-Music-Player.git](https://github.com/YOUR_USERNAME/Smart-Music-Player.git)
 cd Smart-Music-Player
 ```
+
+### 3. Install Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+### 4. Setup AI model
+
+- Download a lightweight Vosk model (e.g., vosk-model-small-en-in-0.4) from Vosk Models.
+
+- Extract the folder into your project directory.
+
+- Update the model_path in src/ui/chat_widget.py to point to your extracted folder.
+
+---
+
+## 🛠 Usage
+
+Run the application using:
+
+```bash
+python -m src.main
+```
+
+### Voice Commands
+
+- "Play [Song Name]"
+
+- "Pause" / "Stop" / "Next" / "Previous"
+
+- "Volume [0-100]"
+
+- "Apply Bass Boost" / "Enable Lo-fi"
+
+- "3D Audio"
+
+---
+
+## 🏗 System Architecture
+
+The project follows the Model-View-Controller (MVC) pattern:
+
+- **Model:** VLC Audio Engine & JSON Database.
+
+- **View:** CustomTkinter GUI components.
+
+- **Controller:** Main logic handling the interface-engine bridge and AI threading.
+  <img src=""C:\Users\SWAPNIL CHETTRI\OneDrive\Desktop\licensed-image.jpg"" alt="Alt text" width="300" align="center">
+
+---
+
+## 📦 Tech Stack
+
+- GUI: CustomTkinter
+
+- **Audio:** <a href="https://pypi.org/project/python-vlc/">python-vlc</a>,<a href="https://github.com/jiaaro/pydub">Pydub</a>
+
+- **AI/STT:** <a href="https://alphacephei.com/vosk/">Vosk</a>
+
+- **TTS:** <a href="https://pyttsx3.readthedocs.io/en/latest/">pyttsx3</a>
+
+- **Search:** <a href="https://github.com/maxbachmann/RapidFuzz">RapidFuzz</a>
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License - see the <a href="https://www.google.com/search?q=LICENSE">LICENSE</a> file for details.
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
